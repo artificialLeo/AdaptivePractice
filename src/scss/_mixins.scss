@@ -1,0 +1,6 @@
+@mixin hoverheader {
+  background-color: #fff;
+  color: #8D81AC;
+  border: 2px solid #8D81AC;
+  transition: background-color 1s, color 1s;
+}
