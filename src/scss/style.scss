@@ -139,8 +139,13 @@ body {
     align-items: center;
     width: 390px;
     height: 62px;
-    left: 34%;
-    bottom: -31px;
+
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: -100%;
+    margin: auto;
+
 
     border: 0;
 
@@ -163,12 +168,13 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    //justify-content: center;
     align-items: center;
 
     .unlimited__trial--1200 {
       margin-top: 50px;
-      width: 214px;
+      //width: 214px;
+      text-align: center;
       height: 15px;
       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
       font-style: normal;
@@ -179,9 +185,9 @@ body {
     }
 
     .revolutionary__editor {
-      width: 758.89px;
+      //width: 758.89px;
       height: 54px;
-
+      text-align: center;
       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
       font-style: normal;
       font-weight: bold;
@@ -194,7 +200,7 @@ body {
     }
 
     .pre__header__desc--1200 {
-      width: 861px;
+      width: 900px;
       height: 64px;
 
       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -487,7 +493,8 @@ body {
     height: 847px;
     margin-top: -7px;
     background-color: #4B3B4E;
-
+    background: url("../img/last-section-gradient.png");
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -795,9 +802,11 @@ body {
     position: absolute;
     width: 390px;
     height: 62px;
-    left: 29%;
-    bottom: -3.5%;
-
+    left: 0;
+    bottom: -100%;
+    right: 0;
+    top: 0;
+    margin: auto;
 
     font-style: normal;
     font-weight: bold;
@@ -1124,6 +1133,7 @@ body {
     width: 100%;
     margin-top: -7px;
     background-color: #4B3B4E;
+    background: url("../img/last-section-gradient.png") no-repeat;
 
     display: flex;
     flex-direction: column;
