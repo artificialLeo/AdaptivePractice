@@ -1815,7 +1815,7 @@ display: flex;
     top: -35px;
     width: 720px;
     height: 35px;
-    margin-top: 120px;
+    //margin-top: 120px;
 
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-style: normal;
@@ -1840,7 +1840,7 @@ display: flex;
 
   .footer-section768 {
     width: 100%;
-    margin-top: -7px;
+    //margin-top: -7px;
     background-color: #4B3B4E;
 
     display: flex;
@@ -1849,11 +1849,11 @@ display: flex;
   }
 
   .footer-section768-description {
-    position: relative;
-    top: 100px;
+    //position: relative;
+    //top: 100px;
     font-style: normal;
     font-weight: bold;
-    font-size: 42px;
+    font-size: 28px;
     line-height: 44px;
     /* or 105% */
 
@@ -1867,16 +1867,16 @@ display: flex;
 
   .pricing-block {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    //margin: 15px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
   }
 
   .pricetable {
+
     width: 257px;
     height: 457px;
-    margin: 15px;
-    margin-top: 125px;
-
+    margin: 0 auto;
     background: linear-gradient(90deg, rgba(97, 81, 98, 1) 0%, rgba(104, 85, 104, 1) 35%, rgba(109, 89, 106, 1) 100%);
     opacity: .9;
 
