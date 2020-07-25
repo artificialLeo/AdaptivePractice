@@ -1,7 +1,7 @@
 {
   "name": "forkio",
   "version": "1.0.0",
-  "description": "K. Horkovenko",
+  "description": "K. Horkovenko + Volyk Y.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://gitlab.com/horkovenko.k/forkio.git"
   },
-  "author": "",
+  "author": "K. Horkovenko + Volyk Y.",
   "license": "ISC",
   "bugs": {
     "url": "https://gitlab.com/horkovenko.k/forkio/issues"

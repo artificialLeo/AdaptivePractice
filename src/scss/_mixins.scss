@@ -20,3 +20,11 @@
 
   color: #FFFFFF;
 }
+@mixin white-lines{
+  display: block;
+  position: absolute;
+  background-color: white;
+  width: 26px;
+  height: 3px;
+  transition-duration: .25s;
+}
