@@ -1357,7 +1357,7 @@ body {
     }
   }
   .menu {
-    .&__btn {
+    &__btn {
       display: flex;
       align-items: center;
       align-self: center;
@@ -1388,7 +1388,7 @@ body {
       }
     }
 
-    .&__box {
+    &__box {
       display: flex;
       flex-direction: column;
       position: absolute;
@@ -1405,9 +1405,10 @@ body {
 
     }
 
-    .&__item {
+    &__item {
       display: flex;
-      padding: 29px 50px 21px 35px;
+      padding: 15px 50px 11px 35px;
+      margin:14px 0 10px;
       text-decoration: none;
       font-style: normal;
       font-weight: bold;
@@ -1419,13 +1420,13 @@ body {
       transition-duration: .25s;
 
 
-      .&:hover {
-        background-color: #CFD8DC;
+      &:hover {
+        border-left: 5px solid #8D81AC;
       }
 
       &:focus {
         color: #8D81AC;
-        border-left: 5px solid #8D81AC;;
+
       }
     }
   }

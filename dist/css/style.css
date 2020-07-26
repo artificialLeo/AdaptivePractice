@@ -1599,26 +1599,32 @@ body {
     -webkit-transition-duration: .25s;
        -moz-transition-duration: .25s;
          -o-transition-duration: .25s;
-            transition-duration: .25s; }
+            transition-duration: .25s;
+    -webkit-padding-start: 0;
+       -moz-padding-start: 0;
+            padding-inline-start: 0; }
   .menu__item {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 29px 50px 21px 35px;
+    padding: 15px 50px 11px 35px;
+    margin: 14px 0 10px;
     text-decoration: none;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 18px;
-    color: #8D81AC;
+    color: #FFFFFF;
     -webkit-transition-duration: .25s;
        -moz-transition-duration: .25s;
          -o-transition-duration: .25s;
             transition-duration: .25s; }
-  .menu__item:hover {
-    background-color: #CFD8DC; }
+    .menu__item:hover {
+      border-left: 5px solid #8D81AC; }
+    .menu__item:focus {
+      color: #8D81AC; }
   .top-button-320 {
     padding: 11px 30px;
     border: 0;
