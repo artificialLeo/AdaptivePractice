@@ -17,6 +17,7 @@
   },
   "homepage": "https://gitlab.com/horkovenko.k/forkio#readme",
   "devDependencies": {
+    "browser-sync": "^2.26.12",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean": "^0.4.0",
@@ -25,10 +26,8 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-js-minify": "0.0.3",
     "gulp-sass": "^4.1.0",
-    "gulp-uglify": "^3.0.2"
-  },
-  "dependencies": {
-    "browser-sync": "^2.26.10",
+    "gulp-uglify": "^3.0.2",
     "readable-stream": "^3.6.0"
-  }
+  },
+  "dependencies": {}
 }
