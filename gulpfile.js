@@ -77,6 +77,20 @@ const watcher = () => {
     gulp.watch(path.src.img, imgBuild).on('change',browserSync.reload);
 };
 /**************** T A S K S ****************/
+gulp.task('dev',gulp.series(
+    scssBuild,
+    jsBuild,
+    watcher,
+));
+
+gulp.task('build',gulp.series(
+    cleanProd,
+    htmlBuild,
+    imgBuild,
+    icoBuild,
+
+));
+
 gulp.task('default',gulp.series(
     cleanProd,
     htmlBuild,
