@@ -4,6 +4,9 @@
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+a{
+  text-decoration: none;
+}
 
 @media screen and (min-width: 993px) {
 
@@ -1366,13 +1369,13 @@ body {
       padding-inline-start: 0;
 
 
-      .main__nav__href--320 {
+      .main__nav__href {
         display: flex;
         padding: 15px 50px 11px 35px;
         margin: 14px 0 10px;
-        text-decoration: none;
+        //text-decoration: none;
         font-style: normal;
-        font-weight: bold;
+        font-weight: 400;
         font-size: 26px;
         line-height: 26px;
 
@@ -1380,15 +1383,13 @@ body {
 
         transition-duration: .25s;
 
-
         &:hover {
           border-left: 5px solid #8D81AC;
         }
 
-        &:focus,
-        &:active{
-          color: #8D81AC;
 
+        &:focus{
+          color: #8D81AC;
         }
       }
     }
