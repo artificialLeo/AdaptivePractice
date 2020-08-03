@@ -234,6 +234,7 @@ a {
 
   .site__desc__block {
     position: relative;
+    overflow: hidden;
     width: 100%;
     height: 711px;
     background-color: #F4F4F4;
@@ -337,7 +338,8 @@ a {
     position: absolute;
     width: 700px;
     height: 519px;
-    left: 649px;
+    //left: 649px;
+    left: 47.7%;
     top: 159px;
 
   }
@@ -493,7 +495,7 @@ a {
 
   .last__section__pricing {
     width: 100%;
-    height: 847px;
+    height: 898px;
     margin-top: -7px;
     background-color: #4B3B4E;
     background: url("../img/last-section-gradient.png");
