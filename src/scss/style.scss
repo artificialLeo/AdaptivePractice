@@ -9,7 +9,7 @@ a {
   text-decoration: none;
 }
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 1230px) {  //////993
 
   .main__container--tb,
   .main__container--mb {
@@ -95,7 +95,6 @@ a {
 
             .main-last-btn {
               margin-right: 110px;
-
               display: flex;
               justify-content: center;
               align-items: center;
@@ -319,7 +318,7 @@ a {
 
   .absolute__block__desc {
     position: absolute;
-    width: 611.89px;
+    //width: 611.89px;
     height: 46px;
     left: 705px;
     top: 45px;
@@ -336,7 +335,7 @@ a {
 
   .absolute__logo__desc {
     position: absolute;
-    width: 700px;
+    //width: 700px;
     height: 519px;
     //left: 649px;
     left: 47.7%;
@@ -663,7 +662,7 @@ a {
 
 }
 
-@media screen and (max-width: 992px) and (min-width: 481px) {
+@media screen and (max-width: 1229px) and (min-width: 481px) { ///992 to 481
   .main__container--dt {
     display: none;
   }
@@ -685,6 +684,7 @@ a {
   }
 
   .top-header-part {
+    overflow: hidden;
     width: 100%;
     height: 118px;
     display: flex;
@@ -711,8 +711,8 @@ a {
   }
 
   .top-button {
-    margin-top: 24px;
-    margin-right: 20px;
+    margin-top: 2%;
+    margin-right: 3%;
     width: 145px;
     height: 38px;
     border: 0;
@@ -993,7 +993,7 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     //justify-content: space-around;
-    width: 862px;
+    width: 804px;
     //height: 1055px;
   }
 
@@ -1115,7 +1115,7 @@ a {
     width: 555px;
     height: 2px;
     position: relative;
-    left: 48px;
+    left: 78px;
     top: 15px;
     background: #645766;
   }
@@ -1295,9 +1295,30 @@ a {
     font-size: 82px !important;
   }
 
+  html {
+    overflow-x: hidden;
+  }
+
+
+
 }
 
+
+@media screen and (max-width: 880px) and (min-width: 769px) { ///769 880
+  .top-button {
+    position: relative !important;
+    left: -9.5% !important;
+  }
+}
+
+
+
 @media screen and (max-width: 768px) and (min-width: 481px) {
+
+  html {
+    overflow-x: hidden;
+  }
+
   .header {
     position: relative;
     width: 100%;
@@ -1306,11 +1327,13 @@ a {
     background-size: cover;
   }
   .top-header-part {
+    width: 100%;
     display: flex;
     justify-content: space-around;
-    background: #27262A;
     align-items: center;
-    padding: 0 15px;
+    background: #27262A;
+    padding: 0 0;
+
   }
   .menu {
     position: initial;
@@ -1338,6 +1361,7 @@ a {
 
     &:checked ~ .menu__box {
       visibility: visible;
+      top: 15px;
       left: 0;
     }
   }
@@ -1347,6 +1371,7 @@ a {
       align-items: center;
       align-self: center;
       position: relative;
+      top: 10px;
       width: 26px;
       height: 26px;
       cursor: pointer;
@@ -1390,14 +1415,20 @@ a {
 
 
       .menu__item {
+        position: relative;
+        left: -46px;
         display: flex;
-        padding: 15px 50px 11px 35px;
+        padding: 20px 40px 5px 20px;
         margin: 14px 0 10px;
         //text-decoration: none;
+        height: 40px;
+        text-align: left;
+        width: 180px;
         font-style: normal;
         font-weight: 400;
         font-size: 26px;
         line-height: 26px;
+        border-left: 5px solid transparent;
 
         color: #FFFFFF;
 
@@ -1416,7 +1447,7 @@ a {
   }
   .top-button {
     order: 2;
-    padding: 11px 30px;
+    padding: 0px 0px;
     border: 0;
     background: #8D81AC;
     border-radius: 40px;
@@ -1425,6 +1456,34 @@ a {
     font-size: 16px;
     line-height: 16px;
     color: #FFFFFF;
+  }
+
+  .partners__flex__blok {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 862px;
+  }
+
+  .testimonials__block__footer {
+    width: 465px;
+    top: -80px;
+    text-align: center;
+  }
+
+  .testimonials__block__footer::after {
+    left: -45px;
+  }
+
+  .footer-section-description {
+    margin-left: 10px;
+  }
+
+  .pricing-block {
+    margin-left: 50px;
+  }
+
+  .top-button {
+    margin-left: 180px;
   }
 
 }
@@ -1452,9 +1511,9 @@ a {
 
   .top-header-part {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background: #27262A;
-    align-items: center;
     padding: 32px 15px;
   }
 
@@ -1488,6 +1547,7 @@ a {
       align-items: center;
       align-self: center;
       position: relative;
+      bottom: 10px;
       width: 26px;
       height: 26px;
       cursor: pointer;
@@ -1529,7 +1589,6 @@ a {
       transition-duration: .25s;
       padding-inline-start: 0;
 
-
       .menu__item {
         display: flex;
         padding: 15px 50px 11px 35px;
@@ -1539,7 +1598,7 @@ a {
         font-weight: 400;
         font-size: 26px;
         line-height: 26px;
-
+        border-left: 5px solid transparent;
         color: #FFFFFF;
 
         transition-duration: .25s;
@@ -1982,6 +2041,8 @@ a {
 
   .pricing-block {
     display: grid;
+    align-items: center;
+    justify-content: center;
     //margin: 15px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
@@ -2137,5 +2198,7 @@ a {
 
 }
 
-
+button {
+  outline: none;
+}
 

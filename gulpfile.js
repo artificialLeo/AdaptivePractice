@@ -88,7 +88,6 @@ gulp.task('build',gulp.series(
     htmlBuild,
     imgBuild,
     icoBuild,
-
 ));
 
 gulp.task('default',gulp.series(
